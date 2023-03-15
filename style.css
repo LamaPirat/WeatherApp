@@ -1,0 +1,89 @@
+body {
+  background-color: #86c3d6;
+  font-family: Arial, sans-serif;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  font-size: 1.8em;
+  text-align: center;
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(248, 247, 248, 0.5);
+  color: #fff;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+#weather-info {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#city-name {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#sky-description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#temperature {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#humidity {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#wind {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
